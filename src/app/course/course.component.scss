@@ -1,7 +1,7 @@
 
 .course {
     text-align: center;
-    width: 390px;
+    width: 550px;
     margin: 40px auto;
 }
 
@@ -16,6 +16,11 @@
   margin: 10px auto;
 }
 
+.collapsed-detail {
+  display: none;
+
+}
+
 .duration-cell {
   text-align: center;
 }
@@ -27,15 +32,18 @@
 }
 
 .spinner-container {
-  height: 360px;
-  width: 390px;
+  //height: 360px;
+  //width: 390px;
   position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .lessons-table {
   min-height: 360px;
   margin-top: 10px;
-  width: 400px;
+  //width: 400px;
   margin-left: auto;
   margin-right: auto;
   tr:hover {
@@ -45,7 +53,7 @@
 }
 
 mat-paginator {
-  width: 400px;
+  //width: 400px;
   padding-bottom: 10px;
   margin-bottom: 100px;
 }
@@ -61,6 +69,14 @@ mat-paginator {
   text-align: center;
 }
 
+
+  //[role="columnheader"]{
+  //  &.mat-column-seqNo{
+  //  color: red !important;
+  //  }
+  //}
+
+
 .mat-column-description {
   padding-left:20px;
   text-align: left;
@@ -68,4 +84,10 @@ mat-paginator {
 
 .mat-column-duration {
   font-style: italic;
+}
+
+.scrolling-container {
+  //max-height: 250px;
+  //overflow: auto;
+  //max-width: 200px;
 }

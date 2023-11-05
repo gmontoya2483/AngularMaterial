@@ -3,3 +3,22 @@
 
 @import "@angular/material/prebuilt-themes/indigo-pink.css";
 
+.highlight-date::before{
+  content: '';
+  background: red;
+}
+
+
+.highlight-month::before{
+  content: '';
+  background: greenyellow;
+  border-radius: 50%;
+}
+
+.highlight-year::before{
+  background: pink;
+
+}
+
+
+
