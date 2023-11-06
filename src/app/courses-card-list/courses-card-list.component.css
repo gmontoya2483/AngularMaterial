@@ -2,7 +2,7 @@
 
 .course-card {
   margin: 20px 10px;
-  max-width:474px;
+  max-width:420px;
 }
 
 .course-actions {
@@ -19,7 +19,6 @@
   max-height: 267px;
 }
 
-
 .long-description {
   min-height: 50px;
   max-width: 442px;
@@ -29,3 +28,17 @@ mat-card-content p {
   padding: 10px;
 }
 
+.handset-portrait .course-card {
+  width: 100%;
+  margin: 0;
+  padding: 16px 0;
+}
+
+.handset-portrait .course-thumbnail {
+  width: 100%;
+  margin: 0;
+}
+
+.handset-portrait .long-description {
+    padding: 10px 10px 0 10px;
+}
